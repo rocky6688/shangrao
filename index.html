@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/shangrao_tj.css">
+    <script src="./js/jquery.2.2.4.min.js"></script>
+    <!-- <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script> -->
+</head>
+
+<body>
+    <div class="app" id="app">
+        <div class="header">
+            <div class="header_warp warp">
+                <div class="header_nav">
+                    <div class="header_nav_left">
+                        <ul>
+                            <li>
+                                <a href="/" target="_blank"></a>
+                                <span></span>
+                                <p>中国政府网</p>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank"></a>
+                                <span></span>
+                                <p>江西政府网</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header_nav_right">
+                        <ul>
+                            <li class="weather">
+                                <img src="./images/weather.png" alt="">
+                                <p>小雨</p>
+                                <p>29°C/23°C</p>
+                                <p>南风3-4级</p>
+                            </li>
+                            <li class="ipv6">
+                                网站支持IPV6
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header_title">
+                    <img src="./images/title.png" alt="">
+                </div>
+                <div class="header_search">
+                    <div class="header_search_warp">
+                        <div class="search_left">
+                            <img src="./images/search_icon.png" alt="">
+                            <div class="select">
+                                <select>
+                                    <option value="全站">全站</option>
+                                </select>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="search_center">
+                            <input type="text" placeholder="搜索您想了解的政策/咨询/服务">
+                        </div>
+                        <div class="search_right">
+                            搜一下
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_bottom_logo">
+                <img src="./images/head_bottom_logo.png" alt="">
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="main_warp warp">
+                <div class="main_nav">
+                    <ul>
+                        <li class="active">
+                            <a href="/" target="_blank">
+                                <img src="./images/nav_logo_1.png" alt="">
+                                <p>网站首页</p>
+                            </a>
+                            <div class="underline active"></div>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/nav_logo_2.png" alt="">
+                                <p>政务公开</p>
+                            </a>
+                            <div class="underline"></div>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/nav_logo_3.png" alt="">
+                                <p>政务服务</p>
+                            </a>
+                            <div class="underline"></div>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/nav_logo_4.png" alt="">
+                                <p>统计数据</p>
+                            </a>
+                            <div class="underline"></div>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/nav_logo_5.png" alt="">
+                                <p>统计分析</p>
+                            </a>
+                            <div class="underline"></div>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/nav_logo_6.png" alt="">
+                                <p>政民互动</p>
+                            </a>
+                            <div class="underline"></div>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/nav_logo_7.png" alt="">
+                                <p>专题专栏</p>
+                            </a>
+                            <div class="underline"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main_content">
+                    <div class="content_title">
+                        <div class="title_toutiao">头条</div>
+                        <div class="content_title_warp">上饶市统计局关于贯切落实过紧日子要求大力压减行政支出的撒娇的哈教科书的和晶科</div>
+                    </div>
+                    <div class="content_main">
+                        <div class="content_main_left">
+                            <div class="swiper_items" id="swiper_items">
+                                <div class="swiper_item active">
+                                    <img src="./images/swiper_1.png" alt="">
+                                </div>
+                                <div class="swiper_item">
+                                    <img src="http://www.dg.gov.cn/img/0/115/115444/3415760.png" alt="">
+                                </div>
+                                <div class="swiper_item">
+                                    <img src="http://www.dg.gov.cn/img/0/107/107449/3388807.jpg" alt="">
+                                </div>
+                                <div class="swiper_item">
+                                    <img src="http://www.dg.gov.cn/img/0/53/53284/3171097.jpg" alt="">
+                                </div>
+                                <div class="swiper_item">
+                                    <img src="http://www.dg.gov.cn/img/0/11/11352/2792100.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper_nav">
+                                <div class="swiper_nav_warp">
+                                    <ul>
+                                        <li class="lunbo_p active">工啊实打实大厦</li>
+                                        <li class="lunbo_p">啊实打实大所大所多款的刷卡机</li>
+                                        <li class="lunbo_p">sad就看了sad金坷垃极度空灵</li>
+                                        <li class="lunbo_p">工业经济单杀框架的哈萨克静待花开静接口很多萨克闪电借款的刷卡机的撒回到家卡萨丁很快就暗示</li>
+                                        <li class="lunbo_p">啊实打实大杀框架的快就暗示</li>
+                                    </ul>
+                                </div>
+                                <div class="swiper_nav_btns">
+                                    <ul id="lunbo_btn">
+                                        <li class="swiper_nav_btn active"></li>
+                                        <li class="swiper_nav_btn"></li>
+                                        <li class="swiper_nav_btn"></li>
+                                        <li class="swiper_nav_btn"></li>
+                                        <li class="swiper_nav_btn"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_main_right">
+                            <div class="art_list">
+                                <div class="art_list_tab main_right_tabs">
+                                    <ul>
+                                        <li class="active">工作动态</li>
+                                        <li>文件通知</li>
+                                    </ul>
+                                    <div class="more">
+                                        <a href="/" target="_blank">更多+</a>
+                                    </div>
+                                </div>
+                                <div class="art_list_content main_right_content active">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市统计局为上饶市“十四五”规划建言献策</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市统计局赴德兴、玉山开展农业统计基层基础工作复查</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市1-11月新增一套表单位列全省第四位</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市启动第四次全国经济普查年鉴编撰工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 国家统计局调研组来饶调研上饶市地区生产总值统一核算改革工作收到货卡几点回家安徽的
+                                            </a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 我局开展干部职工健康体检工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 普查中心正式开展战略性新兴产业企业申报工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 省统计局吴九华处长一行来饶核查商贸企业</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市荣获2019年度全省高质量发展先进设区市</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="art_list_content main_right_content">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市统计局为上饶市“十四五”规划建言献策</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_center_nav">
+                    <ul>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/center_nav1.png" alt="">
+                                <p>政务信息公开指南</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/center_nav2.png" alt="">
+                                <p>政务信息公开制度</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/center_nav3.png" alt="">
+                                <p>法定主动公开内容</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/center_nav4.png" alt="">
+                                <p>依申请公开</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/" target="_blank">
+                                <img src="./images/center_nav5.png" alt="">
+                                <p>政务信息公开年报</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main_bottom_list">
+                    <ul>
+                        <li>
+                            <div class="art_list">
+                                <div class="art_list_tab tjfx_tabs">
+                                    <ul>
+                                        <li class="active">统计分析</li>
+                                        <li>统计公告</li>
+                                    </ul>
+                                    <div class="more">
+                                        <a href="/" target="_blank">更多+</a>
+                                    </div>
+                                </div>
+                                <div class="art_list_content tjfx_content active">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 统计分析1</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市统计局赴德兴、玉山开展农业统计基层基础工作复查</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市1-11月新增一套表单位列全省第四位</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市启动第四次全国经济普查年鉴编撰工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 国家统计局调研组来饶调研上饶市地区生产总值统一核算改革工作收到货卡几点回家安徽的
+                                            </a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 我局开展干部职工健康体检工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="art_list_content tjfx_content">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 统计分析2</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="art_list">
+                                <div class="art_list_tab tjsj_tabs">
+                                    <ul>
+                                        <li class="active">统计数据</li>
+                                        <li>统计标准</li>
+                                    </ul>
+                                    <div class="more">
+                                        <a href="/" target="_blank">更多+</a>
+                                    </div>
+                                </div>
+                                <div class="art_list_content tjsj_content active">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 统计数据1</a>
+                                            <span>11-28</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="art_list_content tjsj_content">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 统计数据2</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <div class="art_list">
+                                <div class="art_list_tab xsfx_tabs">
+                                    <ul>
+                                        <li class="active">县(市、区)分析</li>
+                                        <li>县(市、区)公报</li>
+                                    </ul>
+                                    <div class="more">
+                                        <a href="/" target="_blank">更多+</a>
+                                    </div>
+                                </div>
+                                <div class="art_list_content xsfx_content active">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 县市分析1</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市统计局为上饶市“十四五”规划建言献策</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市统计局赴德兴、玉山开展农业统计基层基础工作复查</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市1-11月新增一套表单位列全省第四位</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市启动第四次全国经济普查年鉴编撰工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 国家统计局调研组来饶调研上饶市地区生产总值统一核算改革工作收到货卡几点回家安徽的
+                                            </a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 我局开展干部职工健康体检工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 普查中心正式开展战略性新兴产业企业申报工作</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 省统计局吴九华处长一行来饶核查商贸企业</a>
+                                            <span>11-28</span>
+                                        </li>
+                                        <li>
+                                            <a href="/" target="_blank">· 上饶市荣获2019年度全省高质量发展先进设区市</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="art_list_content xsfx_content">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">· 县市分析2</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="art_list">
+                                <div class="art_list_tab xsdt_tabs">
+                                    <ul>
+                                        <li class="active">县(市、区)动态</li>
+                                        <li>政策法规</li>
+                                    </ul>
+                                    <div class="more">
+                                        <a href="/" target="_blank">更多+</a>
+                                    </div>
+                                </div>
+                                <div class="art_list_content xsdt_content active">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">·
+                                                县级动态1局为上啊实打数据库数据可视化就是科技世纪浩劫苦上加苦实大饶市“十四五”规划建言献策</a>
+                                            <span>11-28</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="art_list_content xsdt_content">
+                                    <ul>
+                                        <li>
+                                            <a href="/" target="_blank">·
+                                                县级动态2局为上饶市“啊实打实大大单杀很多科技爱德华就看谁档卡户就看得见卡萨丁十四五”规划建言献策</a>
+                                            <span>11-28</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main_banner">
+                    <img src="./images/banner_1.jpg" alt="">
+                </div>
+
+                <div class="flooter_nav">
+                    <div class="zxly clearfix">
+                        <a href="/" target="_blank">
+                            <img src="./images/zxly.png" alt="">
+                            <p>在线留言</p>
+                        </a>
+                    </div>
+                    <div class="flooter_nav_right">
+                        <ul>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav1.png" alt="">
+                                    <p>统计文化</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav2.png" alt="">
+                                    <p>法制建设</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav3.png" alt="">
+                                    <p>党的建设</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav4.png" alt="">
+                                    <p>普查简报</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav5.png" alt="">
+                                    <p>人口普查</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav6.png" alt="">
+                                    <p>热点资讯数据</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav7.png" alt="">
+                                    <p>行政调解专栏</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav8.png" alt="">
+                                    <p>作风建设</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav9.png" alt="">
+                                    <p>农业普查</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/" target="_blank">
+                                    <img src="./images/flooter_nav10.png" alt="">
+                                    <p>经济普查</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="flooter">
+            <div class="flooter_warp warp">
+                <div>
+                    <div class="flooter_list">
+                        <ul>
+                            <li>
+                                <a href="http://" target="_blank">隐私保护</a>
+                            </li>
+                            <li>
+                                <a href="http://" target="_blank">关于我们</a>
+                            </li>
+                            <li>
+                                <a href="http://" target="_blank">版权说明</a>
+                            </li>
+                            <li>
+                                <a href="http://" target="_blank">网站导航</a>
+                            </li>
+                            <li>
+                                <a href="http://" target="_blank">网站建议</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flooter_content">
+                        <p>主办：上饶市人民政府办公室&nbsp;&nbsp;承办：上饶市大数据发展管理局&nbsp;&nbsp;政府网站标识码：3611000001 </p>
+                        <p><img src="./images/gh.png" alt="">赣公网安备
+                            36110202000153号&nbsp;&nbsp;ICP备案号：赣ICP备05005552号&nbsp;&nbsp;邮箱：wzk@zgsr.gov.cn</p>
+                    </div>
+                </div>
+                <div class="flooter_logo">
+                    <img src="./images/flooter_logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="./js/shangrao_tj.js"></script>
+<!-- <script type="text/javascript">
+    var vm = new Vue({
+        el: '#app',
+        data: {
+
+        },
+        methods: {
+
+        }
+    })
+</script> -->

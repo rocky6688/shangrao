@@ -1,0 +1,113 @@
+/* html{font-size:calc(100vw / 23.4)} */
+/* ../../src/assets/images/web-bg.jpg */
+html,
+body {
+    margin: 0;
+    font-family: "Microsoft YaHei", simsun;
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+p,
+dl,
+dd {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+del {
+    text-decoration: none;
+}
+
+a {
+    color: #333;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+img {
+    vertical-align: bottom;
+    border: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 0;
+    outline: none;
+}
+
+textarea {
+    padding: 0;
+    resize: none;
+    overflow: auto;
+    outline: none
+}
+
+th {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+select {
+    outline:none;
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: none;
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    /*将背景改为红色*/
+
+    /*加padding防止文字覆盖*/
+    padding-right: 14px;
+    }
+    /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+    select::-ms-expand { display: none; }
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.cleardiv {
+    clear: both;
+}
